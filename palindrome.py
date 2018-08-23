@@ -1,13 +1,17 @@
 def palindrome(text):
     questionWord = list(text)
-    if questionWord == questionWord.reverse():
+    testWord = list(text)
+    testWord.reverse()
+    print(questionWord)
+    print(testWord)
+    if questionWord == testWord:
         print("This is a palindrome")
     else:
         print("This is not a palindrome")
 
-first = "true"
+first = 'true'
 palindrome(first)
-second = "false"
+second = 'false'
 palindrome(second)
-third = "bob"
+third = 'bob'
 palindrome(third)
