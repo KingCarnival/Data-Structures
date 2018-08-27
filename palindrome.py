@@ -1,3 +1,5 @@
+#Preston Bruce
+#Palindrome 
 def palindrome(text): #Creating the function
     questionWord = list(text)
     testWord = list(text)
