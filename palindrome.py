@@ -9,7 +9,7 @@ def palindrome(text): #Creating the function
     else:
         print("This is not a palindrome")
 
-word = input("Enter a word to see if it is a Palindrome: ")
+word = input("Enter a word to see if it is a Palindrome: ") #User input
 palindrome(word)
 first = 'true'
 palindrome(first)
