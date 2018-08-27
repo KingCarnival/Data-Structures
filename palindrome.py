@@ -9,6 +9,8 @@ def palindrome(text): #Creating the function
     else:
         print("This is not a palindrome")
 
+word = input("Enter a word to see if it is a Palindrome: ")
+palindrome(word)
 first = 'true'
 palindrome(first)
 second = 'false'
