@@ -3,7 +3,8 @@ Pseudocode Palindrome
 
 Create list variable testWord for the word that is to be tested
 Store the word by splitting the letters across the list
-Create list variable reverseWord created by printing testWord list in a reverse order
+Create list variable reverseWord
+Fill reverseWord by printing testWord list in a reverse order
 Perform if-then test to compare if testWord and reverseWord are equal
   If true print "This is a palindrome"
   If false print "This is not a palindrome"
