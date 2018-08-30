@@ -2,9 +2,10 @@ Preston Bruce
 Pseudocode Palindrome
 
 Create list variable testWord for the word that is to be tested
-Store the word by splitting the letters across the list
-Create list variable reverseWord
-Fill reverseWord by printing testWord list in a reverse order
-Perform if-then test to compare if testWord and reverseWord are equal
+Print "Enter a word to see if it is a Palindrome: "
+Store user input in testWord as a list, each letter of the user input is in its own index
+Store user input in reverseWord as a list, each letter of the user input is in its own index
+Reverse the order of index in reverseWord
+Perform if-then test to compare if testWord and reverseWord indexes are equal
   If true print "This is a palindrome"
   If false print "This is not a palindrome"
