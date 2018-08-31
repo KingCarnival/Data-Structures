@@ -1,5 +1,18 @@
 Preston Bruce
 
 Que Pseudocode
+Create array que of size n
+Create frtPtr and rearPtr
+rearPtr points to tail
+If arraySize < 0
+  then mod n+1/arraySize
+      rearPtr point to tail
+frtPtr = n+1 
 
 Stack Pseudocode
+Create array stack of size n
+Create frtPtr and rearPtr
+rearPtr points to n-1 position (head)
+frtPtr = rearPtr
+pop using frtPtr
+push using rearPtr
