@@ -3,7 +3,7 @@ Nodes and Edges
 
 1. What is the maximum number of edges in a graph with V vertices and no parallel
 edges?
-    Vx(V-1)/2
+    |V|x(|V|-1)/2
 2.What is the minimum number of edges in a graph with V vertices, none of
 which are isolated?
-     V-1
+     |V|-1
