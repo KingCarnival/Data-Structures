@@ -1,0 +1,26 @@
+Preston Bruce
+Graph Code
+
+1. Given a graph represented by an array of linked lists (refer to the ppt discussed in class today), write an algorithm (pseudo code) to determine if the graph is connected.
+
+    1. Declare array of length N (N = number of vertices)
+    2. store vertices = number of vertices, store edges = number of edges
+    3. Edges are stored in order pair form in edgesPairs {(0,1),  (0,2)...}
+    4. Create nested for loops to search edgesPairs
+        for(i=0, i<length(vertices),i++){
+            for a = 0, a<=length(edges){
+                if i not at egdes at vertices
+                    print(Not connected)
+                    break
+                Then
+                    print("vertices are connected")
+            }
+        }
+
+2. Two suggestions were presented in class for the above: (1) each corner represents a vertex, (2) each space contained between the lines represents a vertex.  Discuss the merits of each of the two suggestions and select the one that is advantageous in your analysis.
+
+    The first method creates vertices at every interscetion point. This method allows for deeper analysis of the graph as represents each interscetion between the points on the shape.
+
+    Using the space between the lines as vertices is that it creates a smaller graph and would require less space and time to traverse.
+
+    Between the two methods I would perfer to use the points as it creates a more indepth graph to be used in analysis. While the space method reduces the number of vertices in introduce more irregularity in how the edges are distributed. The corners instead force and even amount of edges for each vertex.             
