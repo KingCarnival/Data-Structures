@@ -1,0 +1,18 @@
+Preston Bruce
+
+1. Add a method has Edge() to Graph which takes two int arguments v and w and returns true if the graph has an edge v-w, false otherwise.  Assume use of adjacency list.
+
+    1. Declare array of length N (N = number of vertices)
+    2. store vertices = number of vertices, store edges = number of edges
+    3. Edges are stored in order pair form in edgesPairs example: {(0,1),  (0,2)...}
+    4. Create method Edge() which is discrebed as follows:
+        5. Create nested for loops to search edgesPairs
+            for(i=0, i<length(vertices),i++){
+                for a = 0, a<=length(edges){
+                    if edges[i] == vertices + edges
+                        return True
+                        break
+                    Then
+                        return False
+            }
+        }
