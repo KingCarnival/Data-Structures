@@ -14,5 +14,12 @@ Create array stack of size n
 Create frtPtr and rearPtr
 rearPtr points to n-1 position (head)
 frtPtr = rearPtr
-pop using frtPtr
-push using rearPtr
+if rearPtr > tail
+  add value to A[rearPtr]
+  frtPtr +1
+else 
+  print "stack is full"
+
+if rearPtr < tail
+  print value at A[frtPtr]
+  frtPtr + 1

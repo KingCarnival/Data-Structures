@@ -1,0 +1,11 @@
+Preston Bruce
+
+Stack
+1.  Create an array of size N, define two pointers (Head = 0, and Tail = 0)
+2.  To Push check that the array is full (head = (A[size]-1)), if it is not then enter the value at head poisiton and incriment it one index
+3.  To Pop check if the index is empty, if not print the value at A[tail] and incriment tail by one.
+
+Que
+1.  Create an array of size N, define two pointers (Head = 0, and Tail = 0)
+2.  To Enque check array is full (Tail =  A[size-1]) if not assign value at Tail poisiton and incriment Tail by one, if full display "QUE Full"
+3.  To Deque check if array is empty (Head = Tail), if not decrement Head, if empty display "Que empty" 
