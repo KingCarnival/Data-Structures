@@ -7,4 +7,4 @@ def polynomial(N,P,A):
         final += holder
     print("The final function is ", final)
 
-polynomial(7,5,[3,10,5,12,9,4,6,8])
+polynomial(5,5,[1,1,1,1,1,1])
