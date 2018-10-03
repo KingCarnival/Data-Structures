@@ -3,7 +3,7 @@ Preston Bruce
 1. Declare n, p and A[]
 Declare holder and final
 
-for(i=n i<=-1, i++){
+for(i=n i<=-1, i--){
 	holder=A[i]*(p^^n)
 	final+=holder
 }
