@@ -3,7 +3,7 @@ def linearPoly(degree, constants):
     holder = 0
 
     for i in range(degree,-1,-1):
-        holder = (constants[i]*degree)
+        holder = ((constants[i]+degree)*degree)
         final += holder
     print("The final value is ", final) 
 
