@@ -1,0 +1,20 @@
+Preston Bruce
+
+1. Declare n, p and A[]
+Declare holder and final
+
+for(i=n i<=-1, i--){
+	holder=A[i]*(p^^n)
+	final+=holder
+}
+print final
+
+2. Refined Algorithm
+
+    Declare array size N constants, and variables number, degree, final, equation
+    set equation = ((constants[number-1]*degree+constants[number-2])*degree)
+    create for loop
+        for i in range(number-3,0,-1):
+        equation = (equation + constants[i])* degree
+
+
