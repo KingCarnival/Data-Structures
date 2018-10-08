@@ -7,4 +7,10 @@ def linearPoly(number,degree, constants):
     final = equation + constants[0]
     print("The final value is ", final) 
 
-linearPoly(7,7,[1,2,4,3,6,5,5])
+rotations = input("Insert a number")
+exponet = input("Insert a number")
+series = input("Input a list of numbers")
+
+
+
+linearPoly(rotations,exponet,series)
