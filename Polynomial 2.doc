@@ -16,5 +16,7 @@ print final
     create for loop
         for i in range(number-3,0,-1):
         equation = (equation + constants[i])* degree
+    set final = equation + constants[0]
+    print final
 
 
